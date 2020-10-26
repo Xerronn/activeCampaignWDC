@@ -38,7 +38,7 @@
             console.log(data);
             tableData = [];
             tableData.push({
-                "totalCount": data.contacts.length
+                "totalCount": data.meta.total
             });
             table.appendRows(tableData);
             doneCallback();
